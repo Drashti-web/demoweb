@@ -1,0 +1,332 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.text_theam_color{
+	color: #ff0033;
+}
+
+.theam_btn_1{
+	border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 6px 23px;
+    color: #cc0033;
+}
+.theam_btn_1:hover{
+	background-color: #f10b74;
+	color: white;
+}
+
+.theam_btn_2{
+	border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 6px 23px;
+    color: #cc0033;
+    box-shadow: 0 3px 12px #00000066;
+}
+.theam_btn_2:hover{
+	background-color: #ff4b9b;
+	color: white;
+}
+
+#carouselExampleControls .carousel-control-prev{
+    left: -40px;
+}
+
+#carouselExampleControls .carousel-control-next{
+    right: -42px;
+} 
+
+#second_carousel .carousel-control-prev{
+    left: -80px;
+}
+
+#second_carousel .carousel-control-next{
+    right: -80px;
+} 
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+}
+ul.navbar-nav li a.nav-link{
+	color: white;
+}
+
+ul li.active {
+    border-bottom: 2px solid #E31E24;
+    color: #E31E24;
+}
+
+ul li:hover {
+    border-bottom: 2px solid #E31E24;
+    color: #E31E24;
+}
+.navbar-light .navbar-toggler{
+	border-color: white;
+}
+.navbar-light .navbar-toggler-icon{
+	filter: invert(1);
+}
+/*--------------------sec 1-----------------------------*/
+.bg_1_img{
+	background: url('img-2/bg-1-img.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.section_1 h1{
+	font-size: 52px;
+}
+.section_1 p{
+	font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255 255 255 / 81%);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(255 255 255 / 81%);
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+/*----------------------sec 2-------------------------------*/
+
+.section_2 h1{
+	font-size: 33px;
+}
+.section_2 p{
+	font-size: 16px;
+	color: #cc9999;
+}
+/*----------------------sec 3-------------------------------*/
+.bg_2_img{
+	background: url('img-2/layer-2.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.section_3 h1{
+	font-size: 40px;
+}
+.section_3 p{
+	font-size: 22px;
+}
+
+/*----------------------sec 4-------------------------------*/
+
+.section_4 p{
+	font-size: 23px; 
+}
+
+/*----------------------sec 5-------------------------------*/
+.bg_3_img{
+	background: url('img-2/layer-3.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.section_5 h1{
+	font-size: 33px;
+}
+.section_5 p{
+	font-size: 20px;
+}
+.section_5 .first_img{
+	position: relative;
+	z-index: 2;
+	width: 90%;
+}
+.section_5 .second_img{
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	width: 65%;
+}
+.section_5 .container{
+	padding-top: 12%;
+}
+
+/*----------------------sec 6-------------------------------*/
+.section_6 h1{
+	font-size: 39px;
+}
+.section_6 p{
+	font-size: 20px;
+}
+.section_6 img{
+	width: 80%;
+}
+/*----------------------sec 7-------------------------------*/
+.bg_4_img{
+	background: url('img-2/Background Color.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.section_7 h1{
+	font-size: 42px;
+	color: #fff;
+}
+.section_7 p{
+	font-size: 22px;
+	color: #fff;
+}
+.owl-carousel.owl-drag .owl-item{
+	opacity: 0.3;
+}
+.owl-carousel.owl-drag .owl-item.center, .owl-item.center .card h5{
+	opacity: 1;
+	color: white;
+}
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+    display: none;
+}
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-nav.disabled{
+	display: block;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-nav{
+	position: absolute;
+	top: 10%;
+	transform: translateY(-10%);
+	left: -15%;
+	font-size: 35px;
+	color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-nav{
+	position: absolute;
+	top: 10%;
+	transform: translateY(-10%);
+	right: -15%;
+	font-size: 35px;
+	color: #fff;
+}
+
+/*----------------------sec 8-------------------------------*/
+.section_8 .float-right p,h2{
+	margin: 0;
+}
+.section_8 .float-right h2{
+	font-size: 20px;
+}
+.section_8 .float-right p{
+	font-size: 12px;
+}
+.section_8 button{
+	padding: 5px;
+	border-radius: 10px;
+	background-image: linear-gradient( to right,#ff0099 , #ff0033);
+	border: none;
+}
+
+/*----------------------sec 9-------------------------------*/
+
+.section_9{
+	background-image: linear-gradient( to right,#ff0099 , #ff0033);
+}
+.section_9 h1{
+	font-size: 24px;
+}
+.section_9 p{
+	font-size: 14px;
+}
+.section_9 i{
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    width: 30px;
+    text-align: center;
+    color: #9999cc;
+}
+
+
+
+
+/*------------------media-----------------------------*/
+
+@media (min-width: 992px){
+	.bg_1_img{
+		height: 120vh;
+	}
+}
+
+@media (max-width: 768px){
+	.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-nav{
+		position: absolute;
+		top: 20%;
+		transform: translateY(-20%);
+		left: 0;
+		font-size: 35px;
+		color: #fff;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-nav{
+		position: absolute;
+		top: 20%;
+		transform: translateY(-20%);
+		right: 0;
+		font-size: 35px;
+		color: #fff;
+	}
+	.owl-carousel .item img{
+		width: 35% !important;
+	}
+}
+
+@media (max-width: 557px){
+	.carousel-item img{
+		height: 500px;
+	}
+	.section_5 h1{
+		padding-top: 44%;
+	}
+	.owl-carousel .item img{
+		width: 30% !important;
+	}
+	#second_carousel .carousel-control-prev{
+	    left: -40px;
+	}
+
+	#second_carousel .carousel-control-next{
+	    right: -40px;
+	}
+	#carouselExampleControls .carousel-control-prev{
+	    left: -25px;
+	}
+
+	#carouselExampleControls .carousel-control-next{
+	    right: -37px;
+	} 
+}
+
+@media (max-width: 425px){
+	.carousel-item img{
+		padding: 0px 30px;
+	}
+}
+
+@media (max-width: 375px){
+	.carousel-item img{
+		padding: 0px 20px;
+	}
+	.section_2 .row.p-5{
+		padding: 2rem !important;
+	}
+}
+
+
+@media (max-width: 320px){
+	.carousel-item img{
+		padding: 0px 0px;
+	}
+	.section_2 .row.p-5 {
+	    padding: 1rem !important;
+	}
+}
